@@ -7,9 +7,19 @@
 }
 
 .info-bar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: 8px 0px;
 }
 
 .info-item {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  color: #777777
 }
 
 .info-link {
@@ -22,7 +32,18 @@
   font-weight: 400;
 }
 
+.info-link:hover {
+  color: black;
+  transform: scale(1.2);
+}
 .nav-background {
+  display: flex;
+  flex-direction: row;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  width: 60%;
+  justify-content: space-around;
+  padding: 8px;
 }
 
 .nav-item {
@@ -36,4 +57,9 @@
   text-decoration: none;
   font-weight: 500;
   color: gray;
+}
+
+.nav-link:hover {
+  color: black;
+  transform: scale(1.2);
 }
